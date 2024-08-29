@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:hint="输入一些东西" />
+    <EditText
+        android:id="@+id/edit_sharde"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:hint="使用shardePreferences存储数据" />
+
+    <Button
+        android:id="@+id/but_sharde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击存储" />
+
+    <Button
+        android:id="@+id/SQLite_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite跳转" />
+
+</LinearLayout>
